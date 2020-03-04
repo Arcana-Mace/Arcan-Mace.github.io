@@ -54,8 +54,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-size: 30px;
 }
 .wrapper{
-    width: 100%;
     max-width: 940px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -435,7 +435,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         width: 700px;
         padding: 60px 0px 60px;
         flex-wrap: wrap;
-        
     }
     .title-h2{
         padding-top: 60px;
@@ -606,4 +605,63 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         text-align: center;
         padding-right: 40px;
     }
+}
+@media(max-width:414px){
+    html { overflow-x: hidden; }
+    body { overflow-x: hidden; }
+    .box-item-text{
+        width: 414px;
+    }
+    .box-item{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .work-text{
+        width: 90px;
+        font-size: 30px;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+    nav{
+        flex-basis: 100%;
+        width: 414px;
+    }
+    .nav{
+        width: 90%;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 10px; 
+    }
+    .photography-text{
+        width: 414px;
+    }
+    .title-h2{
+        width: 90%;
+        margin: 0 auto;
+        margin-left: 0px;
+    }
+    .photography-option{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #form{
+        width: 414px;
+        margin: 0 auto;
+    }
+    .backend{
+        width: 90%;
+    }
+    .backend-text{
+        width: 90%;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+    .form-email{
+        width: 414px;
+    }
+    .form-suscribe, .form-input{
+        width: 90%;
+    }
+  
 }
