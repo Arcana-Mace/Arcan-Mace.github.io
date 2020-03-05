@@ -720,7 +720,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         margin: 10px;
     }
 }
-@media(max-width:414px){
+@media(max-width:375px){
     html { overflow-x: hidden; }
     body { overflow-x: hidden; }
     .wrapper{
