@@ -642,7 +642,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     }
     .box-item-text{
         width: 90%;
-        padding-left: 10px;
+        padding-left: 40px;
         margin: 0 auto;
     }
     .box-item{
@@ -651,6 +651,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     }
     .box-item-info{
         font-size: 16px;
+        padding-top: 0px;
+        margin: 10px auto;
     }
     .work-text{
         width: 90px;
@@ -695,7 +697,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         margin: 0 auto;
     }
     .backend{
-        width: 100%;
+        width: 90%;
     }
     .backend-text{
         width: 90%;
@@ -705,9 +707,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .form-email{
         width: 90%;
         margin: 0 auto;
+        padding-left: 37px;
     }
-    .form-suscribe, .form-input{
+    .form-suscribe{
         width: 90%;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .form-input{
+        width: 90%;
+        margin: 10px;
     }
 }
 @media(max-width:320px){
