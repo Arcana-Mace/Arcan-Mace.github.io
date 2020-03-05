@@ -612,10 +612,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     html { overflow-x: hidden; }
     body { overflow-x: hidden; }
     .wrapper{
-            max-width: 414px;
-            width: 100%;
-            margin: 0 auto;
-            position: relative;
+        max-width: 414px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
         }
     .logo{
         width: 60px;
@@ -623,75 +623,130 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         margin: 0 auto;
     }
     .title{
-        width: 414px;
+        width: 90%;
+        margin: 0 auto;
     }
     .element-top{
         width: 90%;
+        margin: 0 auto;
     }
     .element{
         width: 90%;
+        padding-top: 20px;
+        margin: 0 auto;
     }
     .title-h2{
-       padding-left: 35px;
+        font-size: 30px;
+       width: 90%;
+       margin: 0 auto;
     }
     .box-item-text{
-        width: 400px;
+        width: 90%;
+        padding-left: 10px;
         margin: 0 auto;
     }
     .box-item{
-        width: 100%;
-        margin-left: 15px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box-item-info{
+        font-size: 16px;
     }
     .work-text{
         width: 90px;
         font-size: 30px;
-        margin-top: 20px;
         margin: 0 auto;
     }
     nav{
-        flex-basis: 100%;
-        width: 414px;
+        width: 90%;
     }
     .nav{
         width: 90%;
-        justify-content: center;
-        margin-top: 10px;
     }
     .nav-item{
-        padding-top: 20px;
+        width:100%;
+        padding-top: 10px;
+        padding-left: 60px;
     }
-    .photography-text{
-        width: 414px;
-        margin: 0 auto;
+    .work-photo{
+        display: none;
     }
     .title-h2{
         width: 90%;
-        padding-right: 20px;
-       
+        font-size: 30px;
     }
-    .photography-option{
-        width: 90%;
-        padding-left: 35px;
-        
-    }
-    #form{
+    .photography{
         width: 414px;
         margin: 0 auto;
     }
-    .backend{
+    .photography-text{
         width: 90%;
+    }
+    .photography-option{
+        width: 90%;
+        font-size: 16px;
+        padding-left: 50px;
+    }
+    .photography-grid{
+        display: none;
+    }
+    #form{
+        width:414px;
+        margin: 0 auto;
+    }
+    .backend{
+        width: 100%;
     }
     .backend-text{
         width: 90%;
         font-size: 16px;
-        line-height: 30px;
         margin: 0 auto;
     }
     .form-email{
-        width: 414px;
+        width: 90%;
+        margin: 0 auto;
     }
     .form-suscribe, .form-input{
         width: 90%;
     }
-  
+}
+@media(max-width:320px){
+    html { overflow-x: hidden; }
+    body { overflow-x: hidden; }
+    .wrapper{
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        }
+        .photography{
+            max-width: 320px;
+            text-align: center;
+        }
+        .title-h2{
+            width: 90%;
+            margin:0 auto;
+        }
+        .photography-option{
+            font-size: 16px;
+        }
+        #form{
+            width: 320px;
+            margin: 0 auto;
+        }
+        .backend{
+            width: 90%;
+        }
+        .backend-text{
+            width: 90%;
+            font-size: 16px;
+            line-height: 30px;
+            margin: 0 auto;
+        }
+        .form-email{
+            width: 320px;
+        }
+        .form-suscribe, .form-input{
+            width: 90%;
+        }
 }
