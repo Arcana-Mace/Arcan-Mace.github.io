@@ -651,8 +651,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     }
     .box-item-info{
         font-size: 16px;
+        text-align: center;
         padding-top: 0px;
-        margin: 10px auto;
+        margin: 10px 0;
     }
     .work-text{
         width: 90px;
@@ -700,14 +701,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         width: 90%;
     }
     .backend-text{
-        width: 90%;
+        width:90%;
         font-size: 16px;
+        line-height: 30px;
         margin: 0 auto;
     }
     .form-email{
-        width: 90%;
-        margin: 0 auto;
-        padding-left: 37px;
+        width: 414px;
     }
     .form-suscribe{
         width: 90%;
