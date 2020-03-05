@@ -728,6 +728,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         margin: 0 auto;
         position: relative;
         }
+        .box-item-text{
+            width: 90%;
+            padding-left: 40px;
+            margin: 0 auto;
+        }
         .photography{
             max-width: 320px;
             text-align: center;
@@ -757,5 +762,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         }
         .form-suscribe, .form-input{
             width: 90%;
+            padding-left: 10px;
         }
 }
