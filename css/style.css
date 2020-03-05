@@ -674,16 +674,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .work-photo{
         display: none;
     }
-    .title-h2{
-        width: 90%;
-        font-size: 30px;
-    }
     .photography{
         width: 414px;
         margin: 0 auto;
     }
     .photography-text{
         width: 90%;
+        margin: 0 auto;
+    }
+    .title-h2{
+        width: 90%;
+        font-size: 30px;
     }
     .photography-option{
         width: 90%;
@@ -719,6 +720,61 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         margin: 10px;
     }
 }
+@media(max-width:414px){
+    html { overflow-x: hidden; }
+    body { overflow-x: hidden; }
+    .wrapper{
+        max-width: 375px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        }
+        .photography{
+            width: 375px;
+            margin: 0 auto;
+        }
+        .photography-text{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .title-h2{
+            width: 90%;
+            font-size: 30px;
+        }
+        .photography-option{
+            width: 90%;
+            font-size: 16px;
+            padding-left: 50px;
+        }
+        .photography-grid{
+            display: none;
+        }
+        #form{
+            width:375px;
+            margin: 0 auto;
+        }
+        .backend{
+            width: 90%;
+        }
+        .backend-text{
+            width:90%;
+            font-size: 16px;
+            line-height: 30px;
+            margin: 0 auto;
+        }
+        .form-email{
+            width: 375px;
+        }
+        .form-suscribe{
+            width: 90%;
+            font-size: 16px;
+            margin: 0 auto;
+        }
+        .form-input{
+            width: 90%;
+            margin: 10px;
+        }
+    }
 @media(max-width:320px){
     html { overflow-x: hidden; }
     body { overflow-x: hidden; }
