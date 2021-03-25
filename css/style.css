@@ -648,7 +648,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         width: 100%;
         max-width: 414px;
         margin: 0 auto;
-        /*position: relative;*/
+        position: relative;
         }
     .logo{
         width: 60px;
@@ -766,9 +766,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .wrapper{
         width: 100%;
         max-width: 375px;
-        
-        /*margin: 0 auto;
-        position: relative;*/
+        margin: 0 auto;
+        position: relative;
         }
         .photography{
             width: 375px;
@@ -829,8 +828,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .wrapper{
         width: 100%;
         max-width: 320px;
-        /*margin: 0 auto;
-        position: relative;*/
+        margin: 0 auto;
+        position: relative;
         }
         .box-item-text{
             width: 90%;
