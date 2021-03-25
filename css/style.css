@@ -677,12 +677,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
        margin: 0 auto;
     }
     .box-item-text{
-        width: 90%;
+        width: 100%;
         padding-left: 40px;
         margin: 0 auto;
     }
     .box-item{
-        width: 90%;
+        width: 100%;
         margin: 5 auto;
         text-align: center;
     }
@@ -693,10 +693,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         margin: 10px 0;
     }
     .work-text{
-        width: 90px;
+        width: 100px;
         font-size: 30px;
         margin: 0 auto;
     }
+    
     nav{
         width: 90%;
     }
@@ -709,7 +710,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         padding-left: 60px;
     }
     .work-photo{
-        display: none;
+        width: 400px;
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
     }
     .photography{
         width: 414px;
@@ -728,16 +731,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         font-size: 16px;
         padding-left: 50px;
     }
-    .photography-grid{
-        max-width: 400px;
-        text-align: center;;
-    }
-    .cert{
-        height: auto;
-        width: 100%;
-        max-width: 400px;
-        margin-bottom: 50px;
-    }
+  .photography-img{
+      height: auto;
+      width: 100%;
+      max-width: 400px;
+  }
     #form{
         width:414px;
         margin: 0 auto;
@@ -765,8 +763,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     }
 }
 @media(max-width:375px){
-    /*html { overflow-x: hidden; }
-    body { overflow-x: hidden; }*/
+    html { overflow-x: hidden; }
+    body { overflow-x: hidden; }
     .wrapper{
         width: 100%;
         max-width: 375px;
@@ -774,7 +772,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         position: relative;
         }
         .box-item{
-            width: 90%;
+            width: 100%;
             margin: 5 auto;
             text-align: center;
         }
@@ -790,21 +788,20 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
             width: 90%;
             font-size: 30px;
         }
-        
+        .work-photo{
+            width: 350px;
+            display: grid;
+            grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+        }
         .photography-option{
-            width: 90%;
-            font-size: 16px;
-            padding-left: 50px;
+            font-size: 20px;
+            max-width: 375px;
+            margin: 0 auto;
         }
-        .photography-grid{
-            max-width: 350px;
-            text-align: center;;
-        }
-        .cert{
+        .photography-img{
             height: auto;
             width: 100%;
-            max-width: 300px;
-            margin-bottom: 50px;
+            max-width: 350px;
         }
         #form{
             width:375px;
@@ -842,12 +839,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         position: relative;
         }
         .box-item-text{
-            width: 90%;
+            width: 100%;
             padding-left: 40px;
             margin: 0 auto;
         }
         .box-item{
-            width: 90%;
+            width: 100%;
             margin: 5 auto;
             text-align: center;
         }
@@ -857,21 +854,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         }
        
         .title-h2{
-            width: 90%;
+            width: 100%;
             margin:0 auto;
         }
-        
+        .work-photo{
+            width: 300px;
+            display: grid;
+            grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+        }
         .photography-option{
             font-size: 16px;
         }
         .photography-grid{
-            max-width: 320px;
-            text-align: center;;
+            width: 100%;
         }
         .cert{
             height: auto;
             width: 100%;
-            max-width: 300px;
             margin-bottom: 50px;
         }
         #form{
