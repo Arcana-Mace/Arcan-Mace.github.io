@@ -642,8 +642,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     }
 }
 @media(max-width:414px){
-    html { overflow-x: hidden; }
-    body { overflow-x: hidden; }
+    /*html { overflow-x: hidden; }
+    body { overflow-x: hidden; }*/
     .wrapper{
         max-width: 414px;
         width: 100%;
@@ -761,8 +761,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     }
 }
 @media(max-width:375px){
-    html { overflow-x: hidden; }
-    body { overflow-x: hidden; }
+    /*html { overflow-x: hidden; }
+    body { overflow-x: hidden; }*/
     .wrapper{
         max-width: 375px;
         width: 100%;
@@ -849,7 +849,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
             font-size: 16px;
         }
         .photography-grid{
-            max-width: 350px;
+            max-width: 320px;
             text-align: center;;
         }
         .cert{
