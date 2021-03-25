@@ -725,7 +725,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
         padding-left: 50px;
     }
     .photography-grid{
-        display: none;
+        max-width: 400px;
+        text-align: center;;
+    }
+    .cert{
+        height: auto;
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 50px;
     }
     #form{
         width:414px;
@@ -780,7 +787,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
             padding-left: 50px;
         }
         .photography-grid{
-            display: none;
+            max-width: 350px;
+            text-align: center;;
+        }
+        .cert{
+            height: auto;
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 50px;
         }
         #form{
             width:375px;
