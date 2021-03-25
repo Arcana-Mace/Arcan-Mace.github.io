@@ -645,10 +645,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     /*html { overflow-x: hidden; }
     body { overflow-x: hidden; }*/
     .wrapper{
-        max-width: 414px;
         width: 100%;
-        margin: 0 auto;
-        position: relative;
+        max-width: 414px;
+        
+       /* margin: 0 auto;
+        position: relative;*/
         }
     .logo{
         width: 60px;
@@ -764,10 +765,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     /*html { overflow-x: hidden; }
     body { overflow-x: hidden; }*/
     .wrapper{
-        max-width: 375px;
         width: 100%;
-        margin: 0 auto;
-        position: relative;
+        max-width: 375px;
+        
+        /*margin: 0 auto;
+        position: relative;*/
         }
         .photography{
             width: 375px;
@@ -826,10 +828,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     html { overflow-x: hidden; }
     body { overflow-x: hidden; }
     .wrapper{
-        max-width: 320px;
         width: 100%;
-        margin: 0 auto;
-        position: relative;
+        max-width: 320px;
+        /*margin: 0 auto;
+        position: relative;*/
         }
         .box-item-text{
             width: 90%;
