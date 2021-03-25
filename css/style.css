@@ -647,9 +647,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     .wrapper{
         width: 100%;
         max-width: 414px;
-        
-       /* margin: 0 auto;
-        position: relative;*/
+        margin: 0 auto;
+        /*position: relative;*/
         }
     .logo{
         width: 60px;
